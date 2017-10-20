@@ -1,0 +1,329 @@
+
+@function rem($px){
+  @return $px / 234 * 1rem;
+}
+body{
+  position: relative;
+  background-color: #f3f5f7;
+}
+///* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  *font-size: 100%;
+  font-weight: 400;
+  padding: 0.1rem;
+  font-size: 0.1rem;
+  border-left: 1px solid blue;
+}
+fieldset,img {
+  border: 0;
+}
+address,caption,cite,code,dfn,em,i,strong,th,var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,ul,li {
+  list-style: none outside;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+  content: '';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,th {
+  text-align: left;
+}
+input,textarea,select,button {
+  font-family: inherit;
+  font-size: inherit;
+  *font-size: 100%;
+  font-weight: inherit;
+  resize: none;
+}
+button {
+  cursor: pointer;
+}
+:focus {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+  color: #487d98;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.clr {
+  *zoom: 1;
+  &:after {
+    clear: both;
+  }
+}
+.clr:before,.clr:after {
+  content: "";
+  display: table;
+}
+.colorange {
+  color: orange;
+}
+.fbold {
+  font-weight: bold;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+#outerWrap{
+  width: 100%;
+  overflow: scroll;
+  height: rem(878);
+  .tabGroup {
+    width: rem(160);
+    height: rem(878);
+    overflow: scroll;
+    li {
+      font-size: rem(24);
+      text-align: center;
+      line-height: rem(108);
+      //color: rgb(240,20,20);
+      color: #090a0f;
+      border-bottom: 1px solid rgba(7,17,27,0.1);
+      &.selectedTab {
+        padding-left: 10px;
+        background: #fff;
+        color: #1d9fd3;
+        font-weight: bold;
+      }
+    }
+  }
+  .blueline {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 3px;
+    height: 48px;
+    background: #1d9fd3;
+    overflow: hidden;
+  }
+  #container {
+    height: rem(878);
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    left: rem(161);
+    #content{
+      width: rem(582);
+      background-color: #f3f5f7;
+      .tabContent {
+        width: rem(582);
+        .singleTaoDiv{
+          width: 100%;
+          background-color: #ffffff;
+
+          .singleTaoDetailTr{
+            width: 100%;
+            box-sizing: border-box;
+            padding: rem(36);
+            .avatarTd{
+              width: rem(114);
+              height: rem(114);
+              img{
+                width: rem(114);
+                height: rem(114);
+              }
+            }
+            .item1Td{
+              padding-left: rem(20);
+              .titleDiv{
+                margin-top: rem(4);
+                font-size: rem(28);
+                line-height: rem(28);
+                color: #07111b;
+                font-family: "Microsoft Yahei";
+              }
+              .itemNameDiv{
+                margin-top: rem(16);
+                font-size: rem(20);
+                color: rgb(147,153,159);
+                line-height: rem(20);
+              }
+              .sellNumDiv{
+                padding-top: rem(16);
+                font-size: rem(20);
+                color: rgb(147,153,159);
+                line-height: rem(20);
+              }
+              .priceDiV{
+                margin-top: rem(16);
+                .nowPrice{
+                  font-size: rem(28);
+                  color: #f01414;
+                  line-height: rem(48);
+                  font-weight: rem(700);
+                }
+                .oldPrice{
+                  padding-left: rem(16);
+                  margin-top: rem(16);
+                  font-size: rem(20);
+                  color: rgb(147,153,159);
+                  line-height: rem(48);
+                  text-decoration: line-through;
+                  font-weight: rem(700);
+                }
+                .button{
+                  width: 100%;
+                  .icon-remove_circle_outline{
+                    display: none;
+                    font-size: rem(48);
+                    color: #00a0dc;
+                    vertical-align: middle;
+                  }
+                  .numberSpan{
+                    display: none;
+                    margin-left: rem(20);
+                    margin-right: rem(20);
+                    font-size: rem(20);
+                    color: #93999f;
+                    text-align: center;
+                    line-height: rem(48);
+
+                  }
+                  .icon-add_circle{
+                    font-size: rem(48);
+                    color: #00a0dc;
+                    vertical-align: middle;
+                  }
+                }
+              }
+            }
+          }
+          .carItemTr{
+            width: 100%;
+            height: rem(96);
+            padding: rem(24) rem(36);
+            box-sizing: border-box;
+            border-bottom: 1px solid rgba(7,17,27,0.1);
+            .carTd{
+              width: 30%;
+              font-size: rem(28);
+              font-weight: rem(200);
+              color: rgb(7,17,27);
+              line-height: rem(48);
+            }
+            .carPriceTd{
+              width: 40%;
+              font-size: rem(28);
+              font-weight: rem(700);
+              color: #f01414;
+              line-height: rem(48);
+            }
+            .buttonTd{
+              width: 100%;
+              .icon-remove_circle_outline{
+                font-size: rem(48);
+                color: #00a0dc;
+                vertical-align: middle;
+              }
+              .number{
+                margin-left: rem(20);
+                margin-right: rem(20);
+                font-size: rem(20);
+                color: #93999f;
+                text-align: center;
+                line-height: rem(48);
+
+              }
+              .icon-add_circle{
+
+                font-size: rem(48);
+                color: #00a0dc;
+                vertical-align: middle;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+
+.contentDiv{
+  position: relative;
+  width: rem(750);
+  overflow: scroll;
+}
+
+#slider {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  cursor: pointer;
+}
+#sliderParent {
+  position: absolute;
+  left: 0;
+  height: 0;
+  width: 608px;
+  z-index: 999;
+}
+#outerWrap {
+  position: relative;
+  z-index: 999;
+
+}
+
+.wrapacon {
+  position: relative;
+  float: left;
+  width: 468px;
+  height: 360px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.wrapaconlis {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 450px;
+}
+.scrbar {
+  position: relative;
+  width: 4px;
+  height: 355px;
+  border: 1px solid #f4f4f4;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  float: left;
+  left: 443px;
+  margin-left: 15px;
+  .barbg {
+    position: absolute;
+    right: -1px;
+    top: 50px;
+    width: 2px;
+    height: 105px;
+    border: 2px solid #dadada;
+    background-color: #dadada;
+    border-radius: 20px;
+  }
+}
+
+
+
+
+
+

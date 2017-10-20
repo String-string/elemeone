@@ -1,0 +1,272 @@
+body {
+  position: relative;
+  background-color: #f3f5f7; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  *font-size: 100%;
+  font-weight: 400;
+  padding: 0.1rem;
+  font-size: 0.1rem;
+  border-left: 1px solid blue; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, i, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul, li {
+  list-style: none outside; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ''; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th {
+  text-align: left; }
+
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
+  *font-size: 100%;
+  font-weight: inherit;
+  resize: none; }
+
+button {
+  cursor: pointer; }
+
+:focus {
+  outline: 0; }
+
+a {
+  text-decoration: none;
+  color: #487d98; }
+  a:hover {
+    text-decoration: underline; }
+
+.clr {
+  *zoom: 1; }
+  .clr:after {
+    clear: both; }
+
+.clr:before, .clr:after {
+  content: "";
+  display: table; }
+
+.colorange {
+  color: orange; }
+
+.fbold {
+  font-weight: bold; }
+
+.ml10 {
+  margin-left: 10px; }
+
+.mt10 {
+  margin-top: 10px; }
+
+#outerWrap {
+  width: 100%;
+  overflow: scroll;
+  height: 3.75214rem; }
+  #outerWrap .tabGroup {
+    width: 0.68376rem;
+    height: 3.75214rem;
+    overflow: scroll; }
+    #outerWrap .tabGroup li {
+      font-size: 0.10256rem;
+      text-align: center;
+      line-height: 0.46154rem;
+      color: #090a0f;
+      border-bottom: 1px solid rgba(7, 17, 27, 0.1); }
+      #outerWrap .tabGroup li.selectedTab {
+        padding-left: 10px;
+        background: #fff;
+        color: #1d9fd3;
+        font-weight: bold; }
+  #outerWrap .blueline {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 3px;
+    height: 48px;
+    background: #1d9fd3;
+    overflow: hidden; }
+  #outerWrap #container {
+    height: 3.75214rem;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    left: 0.68803rem; }
+    #outerWrap #container #content {
+      width: 2.48718rem;
+      background-color: #f3f5f7; }
+      #outerWrap #container #content .tabContent {
+        width: 2.48718rem; }
+        #outerWrap #container #content .tabContent .singleTaoDiv {
+          width: 100%;
+          background-color: #ffffff; }
+          #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0.15385rem; }
+            #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .avatarTd {
+              width: 0.48718rem;
+              height: 0.48718rem; }
+              #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .avatarTd img {
+                width: 0.48718rem;
+                height: 0.48718rem; }
+            #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td {
+              padding-left: 0.08547rem; }
+              #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .titleDiv {
+                margin-top: 0.01709rem;
+                font-size: 0.11966rem;
+                line-height: 0.11966rem;
+                color: #07111b;
+                font-family: "Microsoft Yahei"; }
+              #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .itemNameDiv {
+                margin-top: 0.06838rem;
+                font-size: 0.08547rem;
+                color: #93999f;
+                line-height: 0.08547rem; }
+              #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .sellNumDiv {
+                padding-top: 0.06838rem;
+                font-size: 0.08547rem;
+                color: #93999f;
+                line-height: 0.08547rem; }
+              #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .priceDiV {
+                margin-top: 0.06838rem; }
+                #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .priceDiV .nowPrice {
+                  font-size: 0.11966rem;
+                  color: #f01414;
+                  line-height: 0.20513rem;
+                  font-weight: 2.99145rem; }
+                #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .priceDiV .oldPrice {
+                  padding-left: 0.06838rem;
+                  margin-top: 0.06838rem;
+                  font-size: 0.08547rem;
+                  color: #93999f;
+                  line-height: 0.20513rem;
+                  text-decoration: line-through;
+                  font-weight: 2.99145rem; }
+                #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .priceDiV .button {
+                  width: 100%; }
+                  #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .priceDiV .button .icon-remove_circle_outline {
+                    display: none;
+                    font-size: 0.20513rem;
+                    color: #00a0dc;
+                    vertical-align: middle; }
+                  #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .priceDiV .button .numberSpan {
+                    display: none;
+                    margin-left: 0.08547rem;
+                    margin-right: 0.08547rem;
+                    font-size: 0.08547rem;
+                    color: #93999f;
+                    text-align: center;
+                    line-height: 0.20513rem; }
+                  #outerWrap #container #content .tabContent .singleTaoDiv .singleTaoDetailTr .item1Td .priceDiV .button .icon-add_circle {
+                    font-size: 0.20513rem;
+                    color: #00a0dc;
+                    vertical-align: middle; }
+          #outerWrap #container #content .tabContent .singleTaoDiv .carItemTr {
+            width: 100%;
+            height: 0.41026rem;
+            padding: 0.10256rem 0.15385rem;
+            box-sizing: border-box;
+            border-bottom: 1px solid rgba(7, 17, 27, 0.1); }
+            #outerWrap #container #content .tabContent .singleTaoDiv .carItemTr .carTd {
+              width: 30%;
+              font-size: 0.11966rem;
+              font-weight: 0.8547rem;
+              color: #07111b;
+              line-height: 0.20513rem; }
+            #outerWrap #container #content .tabContent .singleTaoDiv .carItemTr .carPriceTd {
+              width: 40%;
+              font-size: 0.11966rem;
+              font-weight: 2.99145rem;
+              color: #f01414;
+              line-height: 0.20513rem; }
+            #outerWrap #container #content .tabContent .singleTaoDiv .carItemTr .buttonTd {
+              width: 100%; }
+              #outerWrap #container #content .tabContent .singleTaoDiv .carItemTr .buttonTd .icon-remove_circle_outline {
+                font-size: 0.20513rem;
+                color: #00a0dc;
+                vertical-align: middle; }
+              #outerWrap #container #content .tabContent .singleTaoDiv .carItemTr .buttonTd .number {
+                margin-left: 0.08547rem;
+                margin-right: 0.08547rem;
+                font-size: 0.08547rem;
+                color: #93999f;
+                text-align: center;
+                line-height: 0.20513rem; }
+              #outerWrap #container #content .tabContent .singleTaoDiv .carItemTr .buttonTd .icon-add_circle {
+                font-size: 0.20513rem;
+                color: #00a0dc;
+                vertical-align: middle; }
+
+.contentDiv {
+  position: relative;
+  width: 3.20513rem;
+  overflow: scroll; }
+
+#slider {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  cursor: pointer; }
+
+#sliderParent {
+  position: absolute;
+  left: 0;
+  height: 0;
+  width: 608px;
+  z-index: 999; }
+
+#outerWrap {
+  position: relative;
+  z-index: 999; }
+
+.wrapacon {
+  position: relative;
+  float: left;
+  width: 468px;
+  height: 360px;
+  margin-top: 5px;
+  overflow: hidden; }
+
+.wrapaconlis {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 450px; }
+
+.scrbar {
+  position: relative;
+  width: 4px;
+  height: 355px;
+  border: 1px solid #f4f4f4;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  float: left;
+  left: 443px;
+  margin-left: 15px; }
+  .scrbar .barbg {
+    position: absolute;
+    right: -1px;
+    top: 50px;
+    width: 2px;
+    height: 105px;
+    border: 2px solid #dadada;
+    background-color: #dadada;
+    border-radius: 20px; }

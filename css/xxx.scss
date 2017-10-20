@@ -1,0 +1,64 @@
+@function rem($px){
+  @return $px / 234 * 1rem;
+}
+body{
+  position: relative;
+}
+.content{
+  width: 90%;
+  margin: rem(140) auto 0;
+  .welcome{
+    font-size: rem(48);
+    font-weight: bold;
+    text-align: center;
+  }
+  .notice{
+    margin-top: rem(25);
+    font-size: rem(28);
+    text-align: center;
+    color: #858585;
+  }
+  .saoButton{
+    margin: rem(50) auto 0;
+    .saoButtonSpan{
+      width: 100%;
+      height: rem(70);
+      border: 1px solid #f1e584;
+      background-color: #fcdb00;
+      border-radius: rem(40);
+      line-height: rem(70);
+      text-align: center;
+      font-size: rem(36);
+    }
+
+
+
+  }
+  .selfInputButton{
+    margin-top: rem(50);
+    width: 100%;
+    height: rem(70);
+    border: 1px solid #dcdcdc;
+    border-radius: rem(40);
+    line-height: rem(70);
+    text-align: center;
+    font-size: rem(36);
+  }
+  .checkButton{
+    width: 100%;
+    margin-top: rem(50);
+
+    .checkButtonSpan{
+      padding-top: rem(5);
+      padding-bottom: rem(5);
+      height: rem(40);
+      margin: 0 auto;
+      width: rem(200);
+      font-size: rem(28);
+      border: 1px solid #ff0000 ;
+      text-align: center;
+      line-height: rem(40);
+    }
+
+  }
+}

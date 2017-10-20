@@ -1,0 +1,664 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>左右布局上下滚动Tab切换选项卡 - 聚合素材网演示页www.juheweb.com</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/Creset.css">
+<script  src="js/event.js"></script>
+<script  src="js/tween.js"></script>
+</head>
+
+<body>
+
+  <div id="outerWrap">
+    <div id="sliderParent"></div>
+    <div class="blueline" id="blueline" style="top: 0px; "></div>
+
+      <ul class="tabGroup">
+
+        <li class="tabOption selectedTab"><div>热销榜</div></li>
+        <li class="tabOption"><div>单人特色套餐</div></li>
+        <li class="tabOption"><div>特色粥品</div></li>
+        <li class="tabOption"><div>精选热菜</div></li>
+        <li class="tabOption"><div>爽口凉菜</div></li>
+        <li class="tabOption"><div>半成品</div></li>
+        <li class="tabOption"><div>饭类</div></li>
+        <li class="tabOption"><div>面类</div></li>
+        <li class="tabOption"><div>其他</div></li>
+      </ul>
+
+
+    <div id="container">
+      <div id="content">
+        <div class="tabContent  selectedContent"><!-- 1JavaScript培训:优势 -->
+          <h3 style="">单人特色套餐</h3>
+          <div class="singleTaoDiv">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top" >
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+                <div class="itemNameDiv">咸粥</div>
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd middle"><small>￥</small><span class="price">24</span></div>
+                  <div class="oldPrice toTd middle"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline" ></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle" ></span>
+
+
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabContent"><!-- 3 主体课程 -->
+          <h3>特色粥品</h3>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabContent"><!-- 3 主体课程 -->
+          <h3>精选热菜</h3>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabContent"><!-- 3 主体课程 -->
+          <h3>爽口凉菜</h3>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabContent"><!-- 3 主体课程 -->
+          <h3>半成品</h3>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabContent"><!-- 3 主体课程 -->
+          <h3>饭类</h3>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabContent"><!-- 3 主体课程 -->
+          <h3>面类</h3>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabContent"><!-- 3 主体课程 -->
+          <h3>其他</h3>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="singleTaoDiv" style="border-bottom: 1px solid rgba(7,17,27,0.1);">
+            <div class="singleTaoDetailTr toTr">
+              <div class="avatarTd toTd top">
+                <img src="images/p1/item1.png" alt="">
+              </div>
+              <div class="item1Td toTd top">
+                <div class="titleDiv">
+                  皮蛋瘦肉粥配包子套餐
+                </div>
+
+                <div class="sellNumDiv">
+                  月售 <span class="numberMonth">1132份</span> ，好评率 <span class="pingRate">100%</span>
+                </div>
+                <div class="priceDiV toTr">
+                  <div class="nowPrice toTd"><small>￥</small>24</div>
+                  <div class="oldPrice toTd"><small>￥</small>28</div>
+                  <div class="button toTd middle right">
+                    <span class="icon-remove_circle_outline"></span>
+                    <span class="numberSpan toTd">0</span>
+                    <span class="icon-add_circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--以下代码不作为插件效果内容 -->
+<style>.jhp{ padding:5px 0px; text-align:center; font-size:12px;clear:both; margin:0px; }.d_foot_o{ text-align:center; margin:35px 0 10px 0 ;clear:both; }</style>
+
+<div class="d_foot_o">标题：<a href="http://www.juheweb.com/js/tab/142.html" title="">左右布局上下滚动Tab切换选项卡</a>&nbsp;&nbsp;&nbsp;栏目分类：<a href="http://www.juheweb.com/js/tab/" target="_blank" title="TAB选项卡" class="lm">TAB选项卡</a>&nbsp;&nbsp;&nbsp;素材整理：<a href="http://www.juheweb.com">聚合分享</a>&nbsp;&nbsp;&nbsp;下载：<a href="http://www.juheweb.com/js/tab/142.html" title="立即下载">立即下载</a></div><p class="jhp">&#12288;本代码仅限于学习交流，请勿用于商业用途! </p><p class="jhp">声明:聚合分享素材网代码来源于互联网,精心整理,转载请注明出处!</p>
+<script>
+var container=document.getElementById('container');
+var content=document.getElementById('content');
+var oDivs=DOM.children(content,"div");oDivs[0].st=0;
+for(var i=1;i<oDivs.length;i++){oDivs[i].st=oDivs[i].offsetTop;}
+var oLis=DOM.getElesByClass("tabOption");
+var flag=0;
+var upFlag=oLis.length;
+;(function(){function fn(e){e=e||window.event;
+	if(e.wheelDelta){var n=e.wheelDelta;}else if(e.detail){var n=e.detail*-1;}	//e.wheelDelta是判断是否为非firefox浏览器，e.detail为firefox浏览器
+	if(n>0){container.scrollTop-=12;}else if(n<0){	container.scrollTop+=12;}
+	 slider.style.top=container.scrollTop*container.offsetHeight/content.offsetHeight+"px";
+	 slider.offsetTop*(content.offsetHeight/container.offsetHeight);	
+	var st=container.scrollTop;
+	if(st>this.preSt){
+			for(var j=0;j<oLis.length;j++){	if(st<oDivs[j].st) break;}						
+			if(oLis[j-2]&&this.preLi!==j){
+				if((j)>(flag+1)){DOM.removeClass(oLis[j-2],"selectedTab");	DOM.addClass(oLis[j-1],"selectedTab");animate(blueline,{top:(j-1)*48},500,2);}}	flag=j-1;		
+		}else if(st<this.preSt){			
+			for(var j=oLis.length-1;j>=0;j--){if(st>oDivs[j].st) break;}
+			if(oLis[j+2]&&this.preLi!==j){if(flag===undefined)return ;				
+					if((j)<(flag)){	for(var k=0;k<oLis.length;k++){	DOM.removeClass(oLis[k],"selectedTab");};DOM.addClass(oLis[j+1],"selectedTab");	animate(blueline,{top:(j+1)*48},500,2);upFlag=j+1;}}}	this.preSt=st;if(e.preventDefault)e.preventDefault();return false;}
+container.onmousewheel=fn;
+if(container.addEventListener)container.addEventListener("DOMMouseScroll",fn,false);
+slider=document.createElement('span');
+slider.id="slider";
+slider.style.height=container.offsetHeight*(container.offsetHeight/content.offsetHeight)+"px";
+sliderParent.appendChild(slider);
+on(slider,"mousedown",down);
+var blueline=document.getElementById("blueline");
+function changeTab(){
+	var index=DOM.getIndex(this);	
+	for(var i=0;i<oLis.length;i++){	DOM.removeClass(oLis[i],"selectedTab");	}
+	DOM.addClass(this,"selectedTab");	
+	animate(container,{scrollTop:oDivs[index].st},500,1);
+	var t=oDivs[index].st*container.offsetHeight/content.offsetHeight;	
+	animate(slider,{top:t},500);animate(blueline,{top:index*48},500,2);	
+}
+var tabPannel1=document.getElementById("outerWrap");
+var oLis=DOM.children(DOM.children(tabPannel1,"ul")[0],"li");
+for(var i=0;i<oLis.length;i++){	oLis[i].onclick=changeTab;};
+})();
+</script>
+</body>
+</html>

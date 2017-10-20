@@ -1,0 +1,48 @@
+body {
+  position: relative; }
+
+.content {
+  width: 90%;
+  margin: 0.59829rem auto 0; }
+  .content .welcome {
+    font-size: 0.20513rem;
+    font-weight: bold;
+    text-align: center; }
+  .content .notice {
+    margin-top: 0.10684rem;
+    font-size: 0.11966rem;
+    text-align: center;
+    color: #858585; }
+  .content .saoButton {
+    margin: 0.21368rem auto 0; }
+    .content .saoButton .saoButtonSpan {
+      width: 100%;
+      height: 0.29915rem;
+      border: 1px solid #f1e584;
+      background-color: #fcdb00;
+      border-radius: 0.17094rem;
+      line-height: 0.29915rem;
+      text-align: center;
+      font-size: 0.15385rem; }
+  .content .selfInputButton {
+    margin-top: 0.21368rem;
+    width: 100%;
+    height: 0.29915rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 0.17094rem;
+    line-height: 0.29915rem;
+    text-align: center;
+    font-size: 0.15385rem; }
+  .content .checkButton {
+    width: 100%;
+    margin-top: 0.21368rem; }
+    .content .checkButton .checkButtonSpan {
+      padding-top: 0.02137rem;
+      padding-bottom: 0.02137rem;
+      height: 0.17094rem;
+      margin: 0 auto;
+      width: 0.8547rem;
+      font-size: 0.11966rem;
+      border: 1px solid #ff0000;
+      text-align: center;
+      line-height: 0.17094rem; }

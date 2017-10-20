@@ -1,0 +1,466 @@
+@function rem($px){
+  @return $px / 234 * 1rem;
+}
+body{
+  position: relative;
+  background-color:#f3f5f7 ;
+}
+
+.headerDiv{
+  width: 100%;
+  height: rem(268);
+  background-image: url("../images/p1/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  z-index: -1;
+}
+.bgShadowDiv{
+  z-index: 1000;
+  width:100%;
+  height: rem(268);
+  background-color: rgba(7,17,27,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  blur:rem(10);
+  .brandTr{
+    width: 100%;
+    .avatarTd{
+      width: rem(128);
+      height: rem(128);
+      img{
+        margin-top: rem(40);
+        margin-left: rem(40);
+        width: rem(128);
+        height: rem(128);
+      }
+    }
+    .brandDetailsTd{
+      width:100%;
+      .nameDiv{
+        margin-top: rem(44);
+        margin-left: rem(32);
+        img{
+          width:rem(60);
+          height: rem(36);
+        }
+        span{
+          font-size: rem(32);
+          color: #ffffff;
+          font-weight: bold;
+          padding-left: rem(12);
+          line-height: rem(36);
+
+        }
+      }
+      .sendDiv{
+        font-size: rem(24);
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: rem(32);
+        margin-top: rem(16);
+        color: #ffffff;
+        font-weight: rem(200);
+        line-height: rem(24);
+      }
+      .cutActivityDiv{
+
+        margin-left: rem(32);
+        margin-top: rem(20);
+        img{
+          width: rem(24);
+          height: rem(24);
+        }
+        span{
+          font-size: rem(24);
+          color: #ffffff;
+          font-weight: rem(200);
+          line-height: rem(24);
+          padding-left: rem(8);
+        }
+      }
+    }
+  }
+  .gongGaoDiv{
+    width: 100%;
+    height: rem(56);
+    background-color: rgba(7,17,27,0.2);
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    .gongGaoTr{
+      width: 100%;
+      overflowX: hidden;
+      overflow-y: hidden;
+      img{
+        margin-top: rem(15);
+        margin-left: rem(24);
+        width: rem(44);
+        height: rem(26);
+      }
+      .gongGaoSpan{
+        width: 100%;
+        font-size: rem(18);
+        color: #ffffff;
+        font-weight: rem(200);
+        padding-left: rem(8);
+        line-height: rem(56);
+      }
+    }
+  }
+  .numDiv{
+    width: rem(86);
+    height: rem(48);
+    background-color: rgba(7,17,27,0.2);
+    border-radius: rem(14) rem(16);
+    position:absolute;
+    right:rem(23);
+    bottom: rem(93);
+    text-align: center;
+    line-height: rem(48);
+    color: #ffffff;
+    font-size: rem(20);
+  }
+}
+.navDiv{
+  width: 100%;
+  height: rem(80);
+  background-color: #ffffff;
+  border-bottom: 2px solid rgba(7,17,27,0.1);
+  .item,.pingJia,.shop{
+    width: rem(250);
+    height: rem(80);
+    font-size: rem(28);
+    text-align: center;
+    line-height: rem(80);
+    color: rgb(77,85,93);
+  }
+}
+.assessChangeContentDiv{
+  .assessScore{
+    width:100%;
+    background-color: #ffffff;
+    padding-top: rem(36);
+    padding-bottom: rem(36);
+    border-bottom: 1px solid rgba(7,17,27,0.1);
+    .assessLeftTd{
+      border-right: 1px solid rgba(7,17,27,0.1);
+      width: rem(275);
+      height: rem(142);
+      text-align: center;
+      .score{
+        font-size: rem(48);
+        color: rgb(255,153,0);
+        line-height: rem(56);
+      }
+      .comprehensiveScore{
+        margin-top: rem(12);
+        font-size: rem(24);
+        color: rgb(7,17,27);
+        line-height: rem(24);
+      }
+      .nearby{
+        margin-top: rem(16);
+        font-size: rem(20);
+        color: #93999f;
+        line-height: rem(20);
+        padding-bottom: rem(12);
+      }
+    }
+    .assessRightTd{
+      width: rem(474);
+      height: rem(142);
+      padding-left: rem(48);
+      box-sizing: border-box;
+      .serviceAttitude{
+        margin-bottom: rem(16);
+        .serviceAttitudeTitle{
+          font-size: rem(24);
+          color: rgb(7,17,27);
+          line-height: rem(36);
+        }
+        .serviceAttitudeStar{
+          padding-left: rem(24);
+          img{
+            width: rem(30);
+            height: rem(29);
+          }
+
+        }
+        .serviceAttitudeScore{
+          padding-left: rem(24);
+          font-size: rem(24);
+          color: #ff9900;
+          line-height: rem(36);
+        }
+      }
+      .sendForTime{
+
+        .sendForTimeTitle{
+          font-size: rem(24);
+          color: rgb(7,17,27);
+          line-height: rem(36);
+        }
+        .sendForTimeTime{
+          padding-left: rem(24);
+          font-size: rem(24);
+          color: rgb(147,153,159);
+          line-height: rem(36);
+        }
+      }
+    }
+  }
+  .assessDiv{
+    width: 100%;
+    background-color: #ffffff;
+    .assessTop{
+      border-bottom: 1px solid rgba(7,17,27,0.1);
+      background-color: #ffffff;
+      margin-top: rem(32);
+      margin-left: rem(36);
+      padding-top: rem(36);
+      padding-bottom: rem(36);
+      width: rem(678);
+      box-sizing: border-box;
+      border-bottom: 1px solid rgba(7,17,27,0.1);
+      .assessTab{
+        .all{
+          width: rem(120);
+          height: rem(64);
+          .allSpan{
+            width: rem(120);
+            height: rem(64);
+            font-size: rem(24);
+            color: #ffffff;
+            line-height: rem(64);
+            border-radius: rem(2);
+            background-color: #00a0dc;
+            text-align: center;
+          }
+        }
+        .recommend{
+          width: rem(120);
+          height: rem(64);
+          .recommendSpan{
+            width: rem(120);
+            height: rem(64);
+            font-size: rem(24);
+            color: #4d555d;
+            line-height: rem(64);
+            border-radius: rem(2);
+            background-color: #ccecf8;
+            text-align: center;
+            margin-left: rem(16);
+          }
+
+        }
+        .tuCao{
+          width: rem(120);
+          height: rem(64);
+          .tuCaoSpan{
+            width: rem(120);
+            height: rem(64);
+            font-size: rem(24);
+            color: #4d555d;
+            line-height: rem(64);
+            border-radius: rem(2);
+            background-color: #e9ebec;
+            text-align: center;
+            margin-left: rem(16);
+          }
+
+        }
+      }
+    }
+    .onlyLookAssessDiv{
+      width: 100%;
+      border-bottom: 1px solid rgba(7,17,27,0.1);
+      .onlyLookAssess{
+        margin-left: rem(36);
+        padding-bottom: rem(24);
+        padding-top: rem(24);
+        .icon-check_circle{
+          font-size: rem(48);
+          color: rgb(147,153,159);
+          line-height: rem(48);
+        }
+        .onlyLookSpan{
+          padding-left: rem(8);
+          font-size: rem(24);
+          color: rgb(147,153,159);
+          line-height: rem(48);
+        }
+      }
+    }
+    .assessDetailsDiv{
+      border-bottom: 1px solid rgba(7,17,27,0.1);
+      margin-top: rem(32);
+      margin-left: rem(32);
+      padding-right: rem(32);
+      box-sizing: border-box;
+      width: rem(678);
+      .timeAndUser{
+        width: 100%;
+        .userTouXiangTd{
+          width: rem(56);
+          height: rem(56);
+          img{
+            width: rem(56);
+            height: rem(56);
+          }
+        }
+        .starAndTimeTd{
+          width: rem(300);
+          padding-left: rem(24);
+          .userName{
+            font-size: rem(20);
+            color: rgb(7,17,27);
+            line-height: rem(24);
+          }
+          .star{
+            margin-top: rem(8);
+            .imgTd{
+              img{
+                width: rem(20);
+                height: rem(19);
+              }
+            }
+
+            .sendFor{
+              padding-left: rem(12);
+              font-size: rem(20);
+              color: rgb(147,153,159);
+              line-height: rem(24);
+              font-weight: rem(200);
+            }
+          }
+        }
+        .timeTd{
+          font-size: rem(20);
+          color: rgb(147,153,159);
+          line-height: rem(24);
+          font-weight: rem(200);
+        }
+      }
+      .assessContent{
+        margin-top: rem(12);
+        width: rem(603);
+        font-size: rem(24);
+        color: rgb(7,17,27);
+        line-height: rem(36);
+        padding-left: rem(80);
+      }
+      .thumbTr{
+        padding-left: rem(80);
+        margin-top: rem(16);
+        padding-bottom: rem(36);
+        .icon-thumb_up,.icon-thumb_up{
+          width: rem(23);
+          font-size: rem(24);
+          color: rgb(0,160,220);
+          line-height: rem(48);
+        }
+        .thumbContent{
+          .content{
+            margin-top: rem(16);
+            border: 1px solid rgba(7,17,27,0.1);
+            border-radius: rem(2);
+            width: rem(140);
+            height: rem(32);
+            font-size: rem(18);
+            color: rgb(147,153,159);
+            line-height: rem(32);
+            text-align: center;
+            margin-left: rem(16);
+          }
+        }
+      }
+
+
+    }
+
+  }
+  .footerDiv{
+    height: rem(116);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    .footerBgTr{
+      width: 100%;
+      height: rem(104);
+      background-color: #141d27;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      .shopCarBgDivTd{
+        position: absolute;
+        bottom: rem(14);
+        left: rem(24);
+        width: rem(112);
+        height: rem(112);
+        background-color: #131d26;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        .shipCarContain{
+          margin: rem(12);
+          width: rem(88);
+          height: rem(88);
+          background-color: #2b343c;
+          border-radius: 50%;
+          .icon-shopping_cart{
+            text-align: center;
+            font-size: rem(48);
+            color: #80858a;
+            line-height: rem(88);
+          }
+        }
+      }
+      .totalPriceTd{
+        position: absolute;
+        height: rem(48);
+        width: rem(160);
+        bottom: rem(24);
+        left: rem(160);
+        font-size: rem(20);
+        color: rgba(255,255,255,0.4);
+        font-weight: rem(700);
+        line-height: rem(48);
+      }
+      .sendFeeTd{
+        border-left: 1px solid rgba(255,255,255,.1);
+        position: absolute;
+        padding-left: rem(24);
+        margin-left: rem(24);
+        height: rem(48);
+        width: 100%;
+        bottom: rem(20);
+        left: rem(269);
+        font-size: rem(20);
+        color: rgba(255,255,255,0.4);
+        line-height: rem(48);
+      }
+      .sendInitPriceTd{
+        width: rem(210);
+        height: 100%;
+        background-color: #2b333b;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        .sendInitPrice{
+          margin-left: rem(10);
+          margin-top: rem(32);
+          width: rem(210);
+          height: rem(48);
+          text-align: center;
+          font-size: rem(20);
+          color: rgba(255,255,255,0.4);
+          font-weight: rem(700);
+          line-height: rem(48);
+        }
+      }
+    }
+  }
+}
+

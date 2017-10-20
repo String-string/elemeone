@@ -1,0 +1,332 @@
+body {
+  position: relative;
+  background-color: #f3f5f7; }
+
+.headerDiv {
+  width: 100%;
+  height: 1.1453rem;
+  background-image: url("../images/p1/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  z-index: -1; }
+
+.bgShadowDiv {
+  z-index: 1000;
+  width: 100%;
+  height: 1.1453rem;
+  background-color: rgba(7, 17, 27, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  blur: 0.04274rem; }
+  .bgShadowDiv .brandTr {
+    width: 100%; }
+    .bgShadowDiv .brandTr .avatarTd {
+      width: 0.54701rem;
+      height: 0.54701rem; }
+      .bgShadowDiv .brandTr .avatarTd img {
+        margin-top: 0.17094rem;
+        margin-left: 0.17094rem;
+        width: 0.54701rem;
+        height: 0.54701rem; }
+    .bgShadowDiv .brandTr .brandDetailsTd {
+      width: 100%; }
+      .bgShadowDiv .brandTr .brandDetailsTd .nameDiv {
+        margin-top: 0.18803rem;
+        margin-left: 0.13675rem; }
+        .bgShadowDiv .brandTr .brandDetailsTd .nameDiv img {
+          width: 0.25641rem;
+          height: 0.15385rem; }
+        .bgShadowDiv .brandTr .brandDetailsTd .nameDiv span {
+          font-size: 0.13675rem;
+          color: #ffffff;
+          font-weight: bold;
+          padding-left: 0.05128rem;
+          line-height: 0.15385rem; }
+      .bgShadowDiv .brandTr .brandDetailsTd .sendDiv {
+        font-size: 0.10256rem;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 0.13675rem;
+        margin-top: 0.06838rem;
+        color: #ffffff;
+        font-weight: 0.8547rem;
+        line-height: 0.10256rem; }
+      .bgShadowDiv .brandTr .brandDetailsTd .cutActivityDiv {
+        margin-left: 0.13675rem;
+        margin-top: 0.08547rem; }
+        .bgShadowDiv .brandTr .brandDetailsTd .cutActivityDiv img {
+          width: 0.10256rem;
+          height: 0.10256rem; }
+        .bgShadowDiv .brandTr .brandDetailsTd .cutActivityDiv span {
+          font-size: 0.10256rem;
+          color: #ffffff;
+          font-weight: 0.8547rem;
+          line-height: 0.10256rem;
+          padding-left: 0.03419rem; }
+  .bgShadowDiv .gongGaoDiv {
+    width: 100%;
+    height: 0.23932rem;
+    background-color: rgba(7, 17, 27, 0.2);
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+    .bgShadowDiv .gongGaoDiv .gongGaoTr {
+      width: 100%;
+      overflowX: hidden;
+      overflow-y: hidden; }
+      .bgShadowDiv .gongGaoDiv .gongGaoTr img {
+        margin-top: 0.0641rem;
+        margin-left: 0.10256rem;
+        width: 0.18803rem;
+        height: 0.11111rem; }
+      .bgShadowDiv .gongGaoDiv .gongGaoTr .gongGaoSpan {
+        width: 100%;
+        font-size: 0.07692rem;
+        color: #ffffff;
+        font-weight: 0.8547rem;
+        padding-left: 0.03419rem;
+        line-height: 0.23932rem; }
+  .bgShadowDiv .numDiv {
+    width: 0.36752rem;
+    height: 0.20513rem;
+    background-color: rgba(7, 17, 27, 0.2);
+    border-radius: 0.05983rem 0.06838rem;
+    position: absolute;
+    right: 0.09829rem;
+    bottom: 0.39744rem;
+    text-align: center;
+    line-height: 0.20513rem;
+    color: #ffffff;
+    font-size: 0.08547rem; }
+
+.navDiv {
+  width: 100%;
+  height: 0.34188rem;
+  background-color: #ffffff;
+  border-bottom: 2px solid rgba(7, 17, 27, 0.1); }
+  .navDiv .item, .navDiv .pingJia, .navDiv .shop {
+    width: 1.06838rem;
+    height: 0.34188rem;
+    font-size: 0.11966rem;
+    text-align: center;
+    line-height: 0.34188rem;
+    color: #4d555d; }
+
+.shopChangeContent .assessDetailsDiv {
+  background-color: #ffffff;
+  padding: 0.15385rem 0.15385rem 0rem 0.15385rem;
+  width: 100%;
+  box-sizing: border-box; }
+  .shopChangeContent .assessDetailsDiv .collectionTr {
+    padding-bottom: 0.15385rem;
+    border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+    box-sizing: border-box;
+    width: 2.89744rem; }
+    .shopChangeContent .assessDetailsDiv .collectionTr .collectionLeftTd {
+      width: 60%; }
+      .shopChangeContent .assessDetailsDiv .collectionTr .collectionLeftTd .shopTitle {
+        font-size: 0.11966rem;
+        color: #07111b;
+        line-height: 0.11966rem; }
+      .shopChangeContent .assessDetailsDiv .collectionTr .collectionLeftTd .starAndOrderTr {
+        margin-top: 0.06838rem; }
+        .shopChangeContent .assessDetailsDiv .collectionTr .collectionLeftTd .starAndOrderTr .imgTd img {
+          width: 0.08547rem;
+          height: 0.0812rem; }
+        .shopChangeContent .assessDetailsDiv .collectionTr .collectionLeftTd .starAndOrderTr .orderTd {
+          padding-left: 0.10256rem;
+          font-size: 0.08547rem;
+          color: #4d555d;
+          line-height: 0.15385rem; }
+        .shopChangeContent .assessDetailsDiv .collectionTr .collectionLeftTd .starAndOrderTr .starNumTd {
+          padding-left: 0.06838rem;
+          font-size: 0.08547rem;
+          color: #4d555d;
+          line-height: 0.15385rem; }
+    .shopChangeContent .assessDetailsDiv .collectionTr .collectionRightTd .icon-favorite {
+      font-size: 0.20513rem;
+      color: #f01414;
+      line-height: 0.20513rem; }
+    .shopChangeContent .assessDetailsDiv .collectionTr .collectionRightTd .favoriteTitle {
+      padding-top: 0.03419rem;
+      font-size: 0.08547rem;
+      color: #4d555d;
+      line-height: 0.08547rem; }
+.shopChangeContent .feeTr {
+  border-bottom: 2px solid rgba(7, 17, 27, 0.1);
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 0.15385rem;
+  padding-top: 0.15385rem; }
+  .shopChangeContent .feeTr .initPrice, .shopChangeContent .feeTr .sendPrice, .shopChangeContent .feeTr .sendTime {
+    width: 1.06838rem;
+    text-align: center; }
+    .shopChangeContent .feeTr .initPrice .title, .shopChangeContent .feeTr .sendPrice .title, .shopChangeContent .feeTr .sendTime .title {
+      font-size: 0.08547rem;
+      color: #93999f;
+      line-height: 0.08547rem; }
+    .shopChangeContent .feeTr .initPrice .money, .shopChangeContent .feeTr .initPrice .sendMoney, .shopChangeContent .feeTr .initPrice .time, .shopChangeContent .feeTr .sendPrice .money, .shopChangeContent .feeTr .sendPrice .sendMoney, .shopChangeContent .feeTr .sendPrice .time, .shopChangeContent .feeTr .sendTime .money, .shopChangeContent .feeTr .sendTime .sendMoney, .shopChangeContent .feeTr .sendTime .time {
+      margin-top: 0.06838rem;
+      font-size: 0.20513rem;
+      color: #07111b;
+      line-height: 0.20513rem; }
+.shopChangeContent .ActivityDiv {
+  width: 100%;
+  border-bottom: 1px solid #e6e7e8;
+  border-top: 2px solid #e6e7e8;
+  margin-top: 0.13675rem; }
+  .shopChangeContent .ActivityDiv .gongGaoAndActivity {
+    background-color: #ffffff;
+    padding-bottom: 0.13675rem; }
+    .shopChangeContent .ActivityDiv .gongGaoAndActivity .title {
+      padding-top: 0.15385rem;
+      font-size: 0.11966rem;
+      color: #07111b;
+      line-height: 0.11966rem;
+      margin-left: 0.15385rem; }
+    .shopChangeContent .ActivityDiv .gongGaoAndActivity .jianJieDiv {
+      padding-top: 0.06838rem;
+      margin-left: 0.25641rem;
+      font-size: 0.10256rem;
+      color: #f01414;
+      line-height: 0.20513rem;
+      font-weight: 0.8547rem;
+      width: 2.69231rem; }
+.shopChangeContent .cutContentDiv {
+  width: 100%;
+  border-bottom: 1px solid #e6e7e8; }
+  .shopChangeContent .cutContentDiv .cutDiv {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e7e8; }
+    .shopChangeContent .cutContentDiv .cutDiv .cutTr {
+      padding: 0.13675rem; }
+      .shopChangeContent .cutContentDiv .cutDiv .cutTr img {
+        width: 0.13675rem;
+        height: 0.13675rem; }
+      .shopChangeContent .cutContentDiv .cutDiv .cutTr .shuoMing {
+        padding-left: 0.05128rem;
+        font-size: 0.10256rem;
+        color: #07111b;
+        font-weight: 0.8547rem;
+        line-height: 0.13675rem; }
+.shopChangeContent .sceneContent {
+  width: 100%; }
+  .shopChangeContent .sceneContent .sceneDiv {
+    overflow: hidden;
+    padding-left: 0.15385rem;
+    padding-top: 0.15385rem;
+    padding-bottom: 0.15385rem;
+    background-color: #ffffff;
+    margin-top: 0.13675rem;
+    border-bottom: 1px solid #e6e7e8; }
+    .shopChangeContent .sceneContent .sceneDiv .sceneTitle {
+      font-size: 0.11966rem;
+      color: #07111b;
+      line-height: 0.11966rem; }
+    .shopChangeContent .sceneContent .sceneDiv .imgDiv {
+      height: 0.76923rem; }
+      .shopChangeContent .sceneContent .sceneDiv .imgDiv .img {
+        padding-right: 0.05128rem;
+        box-sizing: border-box; }
+        .shopChangeContent .sceneContent .sceneDiv .imgDiv .img img {
+          margin-top: 0.10256rem;
+          width: 1.02564rem;
+          height: 0.76923rem; }
+.shopChangeContent .shopInfoDiv {
+  padding-top: 0.13675rem;
+  padding-left: 0.15385rem;
+  margin-top: 0.13675rem;
+  background-color: #ffffff; }
+  .shopChangeContent .shopInfoDiv .shopInfo {
+    width: 2.89744rem;
+    font-size: 0.11966rem;
+    color: #07111b;
+    line-height: 0.11966rem;
+    border-bottom: 1px solid #e6e7e8;
+    padding-bottom: 0.10256rem; }
+.shopChangeContent .infoDetailDiv {
+  padding-top: 0.13675rem;
+  padding-left: 0.15385rem;
+  background-color: #ffffff; }
+  .shopChangeContent .infoDetailDiv .infoDetail {
+    padding-left: 0.10256rem;
+    width: 2.89744rem;
+    font-size: 0.10256rem;
+    color: #07111b;
+    line-height: 0.13675rem;
+    border-bottom: 1px solid #e6e7e8;
+    padding-bottom: 0.10256rem; }
+
+.footerDiv {
+  height: 0.49573rem;
+  width: 100%;
+  background-color: #ffffff; }
+  .footerDiv .footerBgTr {
+    width: 100%;
+    height: 0.44444rem;
+    background-color: #141d27;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .footerDiv .footerBgTr .shopCarBgDivTd {
+      position: absolute;
+      bottom: 0.05983rem;
+      left: 0.10256rem;
+      width: 0.47863rem;
+      height: 0.47863rem;
+      background-color: #131d26;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%; }
+      .footerDiv .footerBgTr .shopCarBgDivTd .shipCarContain {
+        margin: 0.05128rem;
+        width: 0.37607rem;
+        height: 0.37607rem;
+        background-color: #2b343c;
+        border-radius: 50%; }
+        .footerDiv .footerBgTr .shopCarBgDivTd .shipCarContain .icon-shopping_cart {
+          text-align: center;
+          font-size: 0.20513rem;
+          color: #80858a;
+          line-height: 0.37607rem; }
+    .footerDiv .footerBgTr .totalPriceTd {
+      position: absolute;
+      height: 0.20513rem;
+      width: 0.8547rem;
+      bottom: 0.10256rem;
+      left: 0.68376rem;
+      font-size: 0.13675rem;
+      color: rgba(255, 255, 255, 0.4);
+      font-weight: 2.99145rem;
+      line-height: 0.20513rem; }
+    .footerDiv .footerBgTr .sendFeeTd {
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+      position: absolute;
+      padding-left: 0.10256rem;
+      margin-left: 0.10256rem;
+      height: 0.20513rem;
+      width: 100%;
+      bottom: 0.10256rem;
+      left: 1.14957rem;
+      font-size: 0.08547rem;
+      color: rgba(255, 255, 255, 0.4);
+      line-height: 0.20513rem; }
+    .footerDiv .footerBgTr .sendInitPriceTd {
+      width: 0.89744rem;
+      height: 100%;
+      background-color: #2b333b;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+      .footerDiv .footerBgTr .sendInitPriceTd .sendInitPrice {
+        margin-left: 0.06838rem;
+        margin-top: 0.13675rem;
+        width: 0.76068rem;
+        height: 0.20513rem;
+        text-align: center;
+        font-size: 0.10256rem;
+        color: rgba(255, 255, 255, 0.4);
+        font-weight: 2.99145rem;
+        line-height: 0.20513rem; }
